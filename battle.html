@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalla</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header class="site-header Inicio"></header>
+
+    <section class="health">
+        <progress class="barra" value="100" max="100" id="health"></progress>
+
+        <button class="btnat" onclick="attackenemy()">Ataque</button>
+        <h2 class="victory1" id="res"></h2>
+    </section>
+
+    <section class="imagen">
+        
+            <img src="/img/blas.jpg" alt="" class="Imgpok">
+
+    </section>
+
+    <section class="health1">
+        <progress class="barra2" value="100" max="100" id="health1"></progress>
+
+        <button class="btnat" onclick="attackenemy1()">Ataque</button>
+        <h2 class="victory" id="res1"></h2>
+    </section>
+
+    <section class="imagen2">
+        
+            <img class="Imgpok2" src="/img/char.jpg" alt="" >
+
+    </section>
+
+        <script>
+            let damage = 10;
+            let enemy1health = 100;
+            let res = "";
+            setInterval(function(){
+                document.getElementById("res").innerHTML = res;
+            let healthvariable = document.getElementById("health");
+            healthvariable.value = enemy1health;
+
+            if(enemy1health < 1){
+            enemy1health = 100;
+            let resultado = "ganaste";
+            res = resultado;
+        
+            }
+
+        }, 1);
+
+    function attackenemy(){
+        enemy1health1 -= damage;
+    }
+
+
+            let damage1 = 10;
+            let enemy1health1 = 100;
+            let res1 = "";
+            setInterval(function(){
+                document.getElementById("res1").innerHTML = res1;
+            let healthvariable1 = document.getElementById("health1");
+            healthvariable1.value = enemy1health1;
+
+            if(enemy1health1 < 1){
+            enemy1health1 = 100;
+            let resultado1 = "ganaste";
+            res1 = resultado1;
+        
+            }
+
+        }, 1);
+
+    function attackenemy1(){
+        enemy1health -= damage1;
+    }
+
+        </script>
+    
+
+    <a href="/maquetabatalla.html">regresar</a>
+    
+</body>
+</html>

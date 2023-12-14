@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seleccion{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+}
+
+body{
+    background-image: url(../img/dor.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    min-height: 20rem;
+}
+
+.site-header {
+    background-color: #333333;  
+    padding: 1rem 0 3rem 0; 
+}
+
+.Inicio{
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40vh;
+    min-height: 20rem;
+}
+
+.title{
+    padding: 0.2rem 0 3rem 0;
+}
+
+.Bata{
+    text-align: center;
+    font-size: 50px;
+    padding: 3rem 0 0.2rem 0;
+}
+
+.boton{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.nom{
+    background-color: blue;
+}
+
+.text-danger{
+    line-height: 40px;
+    color: white;
+}
+
+.placeh{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+}
+
+.titulo-prin{
+    text-align: center;
+}
+
+.formpo{
+    text-align: center;
+    justify-content: center;
+}
+
+.barra{
+    width: 40%;
+    padding: 2rem 0 1rem 0;
+}
+
+.btnat{
+    width: 10%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.barra2{
+    width: 40%;
+    padding: 2rem 0 1rem 0;
+    margin-left: 45%;
+}
+
+.Imgpok2{
+   margin-left: 79%;
+}
+
+.victory{
+    margin-right: 79%;
+}
+
+.victory1{
+    margin-left: 79%;
+}
